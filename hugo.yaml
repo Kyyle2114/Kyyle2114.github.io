@@ -1,5 +1,5 @@
 baseURL: "https://kyyle2114.github.io/"
-title: Lee Hsin-Ying
+title: Joohyeok Kim
 pagination: 
   pagerSize: 20
 theme: PaperMod
@@ -15,10 +15,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Lee Hsin-Ying 李信穎
+  title: Joohyeok Kim
   description: "Student researcher"
   keywords: ["computer vision", "machine learning", "researcher"]
-  author: Me
+  author: Joohyeok Kim
   images: ["imgs/profile.jpg"]
   defaultTheme: light
   disableThemeToggle: false
@@ -60,15 +60,11 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: Lee Hsin-Ying 李信穎
+    Title: Joohyeok Kim
     Content: |
-      I am a first-year PhD student at the University of California Merced advised by Prof. [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang).
-      My current research topics are in generation.
-      Previously, I worked on visual-language learning with Prof. [Winston Hsu](https://winstonhsu.info) at Nataional Taiwan University. 
-      I'm interested in developing intelligence that can interact with human. 
-      My research areas are computer vision, partially at the intersection of natural language processing.
+      I am a first-year PhD student at the Yonsei University advised by Prof. [Seong Jae Hwang](https://micv.yonsei.ac.kr/seongjae).
+      My research areas are computer vision, medical image analysis, and AI efficiency.
       
-      **I'm looking for 2025 summer internships. If you are interested in my profile, please feel free to contact me via email.**
     imageUrl: "imgs/profile.jpg"
     imageTitle: profile
     imageWidth: 120
@@ -76,13 +72,13 @@ params:
   
   socialIcons:
     - name: email
-      url: "mailto:hlee307[at]ucmerced.edu"
+      url: "mailto:kyyle2114[at]gmail.com"
     - name: github
-      url: "https://github.com/shinying"
+      url: "https://github.com/kyyle2114"
     - name: googlescholar
-      url: "https://scholar.google.com/citations?user=_B6D-wkAAAAJ"
+      url: "https://scholar.google.com/citations?user=H9Yo4NsAAAAJ&hl=en"
     - name: linkedin
-      url: "https://www.linkedin.com/in/hsinyinglee"
+      url: "https://www.linkedin.com/in/kyyle2114"
 
   cover:
     hidden: false # hide everywhere but not in structured data
