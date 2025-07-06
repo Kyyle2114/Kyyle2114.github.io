@@ -62,7 +62,7 @@ params:
   homeInfoParams:
     Title: Joohyeok Kim
     Content: |
-      I am a first-year PhD student at the Yonsei University advised by Prof. [Seong Jae Hwang](https://micv.yonsei.ac.kr/seongjae).
+      I am a first-year master student at the Yonsei University advised by Prof. [Seong Jae Hwang](https://micv.yonsei.ac.kr/seongjae).
       My research areas are computer vision, medical image analysis, and AI efficiency.
       
     imageUrl: "imgs/profile.jpg"

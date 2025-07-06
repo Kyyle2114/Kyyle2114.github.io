@@ -1,4 +1,0 @@
----
-type: pub
-layout: dest
----
