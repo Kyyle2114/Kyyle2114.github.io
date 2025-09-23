@@ -16,7 +16,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Joohyeok Kim
-  description: "Student researcher"
+  description: "AI Researcher"
   keywords: ["computer vision", "machine learning", "researcher"]
   author: Joohyeok Kim
   images: ["imgs/profile.jpg"]
@@ -62,7 +62,7 @@ params:
   homeInfoParams:
     Title: Joohyeok Kim
     Content: |
-      I am a first-year master student at the Yonsei University advised by Prof. [Seong Jae Hwang](https://micv.yonsei.ac.kr/seongjae).
+      I am a first-year master student at the Yonsei University advised by Prof. [Seong Jae Hwang](https://micv.yonsei.ac.kr/seongjae) at MICV (Medical Imaging and Computer Vision) Lab.
       My research areas are computer vision, medical image analysis, and AI efficiency.
       
     imageUrl: "imgs/profile.jpg"
