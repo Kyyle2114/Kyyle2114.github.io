@@ -15,10 +15,8 @@ authors:
 selected: true
 arxiv: https://arxiv.org/abs/2509.17401
 code: https://github.com/rubato-yeong/RRM
-video: 
-# page_video: "#video-section"
 cover:
-  # image: imgs/V_ViT.jpg
+  image: imgs/rpm.png
 summary:
   Systematically analyzing 6.6K ViT features across all layers, extracted via sparse autoencoders.
 ---

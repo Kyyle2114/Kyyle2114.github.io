@@ -12,12 +12,10 @@ authors:
   - name: Chanyoung Kim
   - name: Seong Jae Hwang
 selected: true
-# arxiv: https://arxiv.org/abs/2509.17401
-# code: https://github.com/rubato-yeong/RRM
-video: 
-# page_video: "#video-section"
+arxiv: https://arxiv.org/abs/2603.25247
+code: https://github.com/starforTJ/FEAST
 cover:
-  # image: imgs/V_ViT.jpg
+  image: imgs/feast.png
 summary:
   FEAST, an attention-based framework that models the tissue as a fully connected graph, enabling the consideration of all pairwise interactions for spatial transcriptomics. 
 ---

@@ -13,10 +13,8 @@ authors:
 selected: true
 arxiv: https://arxiv.org/abs/2503.18642
 code: https://github.com/starforTJ/V-ViT
-video: 
-# page_video: "#video-section"
 cover:
-  # image: imgs/V_ViT.jpg
+  image: imgs/v_vit.png
 summary:
   V-ViT, a novel framework that enhances calibration by incorporating glaucoma-specific characteristics. 
 ---

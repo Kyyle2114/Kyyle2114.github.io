@@ -14,10 +14,6 @@ authors:
 selected: true
 arxiv: https://arxiv.org/abs/2409.15889
 code: https://github.com/Kyyle2114/Convolutional-Adapter-for-Segment-Anything
-video: 
-# page_video: "#video-section"
-cover:
-  # image: imgs/CAD.jpg
 summary:
   CAD, a memory-efficient parallel convolutional adapter architecture for Segment Anything.
 ---
