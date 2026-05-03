@@ -1,7 +1,7 @@
 ---
 title: "Rethinking Glaucoma Calibration: Voting-Based Binocular and Metadata Integration"
 date: 2026-01-15
-venue: 2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI 2026)
+venue: 2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI 2026 Oral)
 authors:
   - name: Taejin Jeong
     home: https://starforTJ.github.io/

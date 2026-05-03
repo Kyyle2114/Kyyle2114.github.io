@@ -1,0 +1,15 @@
+/* --- Social icons with optional text label below --- */
+.social-icons a.social-icon-with-label {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+    padding: 8px 10px 10px;
+}
+
+.social-icons a.social-icon-with-label .social-icon-label {
+    font-size: 11px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: var(--secondary);
+}

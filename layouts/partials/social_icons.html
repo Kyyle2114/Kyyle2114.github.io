@@ -1,0 +1,29 @@
+<div class="social-icons" {{ with .align }}align="{{ . }}" {{- end }}>
+    {{- range site.Params.socialIcons }}
+    {{- $trimmed := trim .url " " }}
+    {{- $href := $trimmed | safeURL }}
+    {{- $isMailto := strings.HasPrefix (lower $trimmed) "mailto:" }}
+    {{- $isCv := eq (lower (trim .name " ")) "cv" }}
+    {{- $rawLabel := .label | default "" | strings.TrimSpace }}
+    {{- $label := cond (and $isCv (eq $rawLabel "")) "CV" $rawLabel }}
+    {{- $hasLabel := ne $label "" }}
+    <a href="{{ $href }}"
+        {{- if $isCv }} download rel="noopener"{{- else if not $isMailto }} target="_blank" rel="noopener noreferrer me"{{- else }} rel="me"{{- end }}
+        {{- if $hasLabel }} class="social-icon-with-label"{{- end }}
+        title="{{ (.title | default .name) | title }}">
+        {{- if $isCv }}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 12h8" /><path d="M10 16h8" /><path d="M10 8h4" />
+        </svg>
+        {{- else }}
+        {{ partial "svg.html" . }}
+        {{- end }}
+        {{- if $hasLabel }}
+        <span class="social-icon-label">{{ $label }}</span>
+        {{- end }}
+    </a>
+    {{- end }}
+</div>

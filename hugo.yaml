@@ -62,23 +62,29 @@ params:
   homeInfoParams:
     Title: Joohyeok Kim
     Content: |
-      I am a first-year master student at the Yonsei University advised by Prof. [Seong Jae Hwang](https://micv.yonsei.ac.kr/seongjae) at MICV (Medical Imaging and Computer Vision) Lab.
+      I am a first-year master student at the Yonsei University advised by Prof. [Seong Jae Hwang](https://micv.yonsei.ac.kr/seongjae) at [MICV (Medical Imaging and Computer Vision) Lab](https://micv.yonsei.ac.kr/home).
       My research areas are computer vision, medical image analysis, and AI efficiency.
-      
+
+      **Contact:** [kyyle2114@yonsei.ac.kr](mailto:kyyle2114@yonsei.ac.kr)
     imageUrl: "imgs/profile.jpg"
     imageTitle: profile
     imageWidth: 120
     imageHeight: 120
   
   socialIcons:
-    - name: email
-      url: "mailto:kyyle2114[at]gmail.com"
+    - name: cv
+      url: "/files/Joohyeok_Kim_CV.pdf"
+      title: "Download CV (PDF)"
+      label: "CV"
     - name: github
       url: "https://github.com/kyyle2114"
+      label: "GitHub"
     - name: googlescholar
       url: "https://scholar.google.com/citations?user=H9Yo4NsAAAAJ&hl=en"
+      label: "Scholar"
     - name: linkedin
       url: "https://www.linkedin.com/in/kyyle2114"
+      label: "LinkedIn"
 
   cover:
     hidden: false # hide everywhere but not in structured data
