@@ -17,7 +17,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Joohyeok Kim
   description: "AI Researcher"
-  keywords: ["computer vision", "machine learning", "researcher"]
+  keywords: ["computer vision", "machine learning", "medical ai", "researcher"]
   author: Joohyeok Kim
   images: ["imgs/profile.jpg"]
   defaultTheme: light
@@ -63,7 +63,9 @@ params:
     Title: Joohyeok Kim
     Content: |
       I am a first-year master student at the Yonsei University advised by Prof. [Seong Jae Hwang](https://micv.yonsei.ac.kr/seongjae) at [MICV (Medical Imaging and Computer Vision) Lab](https://micv.yonsei.ac.kr/home).
-      My research areas are computer vision, medical image analysis, and AI efficiency.
+      My research interests are Computer Vision, Medical AI, and AI Efficiency.
+      
+      This summer, I am interning at [LG AI Research](https://www.lgresearch.ai/) ([Bio Intelligence Lab](https://www.lgresearch.ai/ourwork/research?tab=PG)) on spatial transcriptomics.
 
       **Contact:** [kyyle2114@yonsei.ac.kr](mailto:kyyle2114@yonsei.ac.kr)
     imageUrl: "imgs/profile.jpg"

@@ -12,7 +12,7 @@ authors:
     home: https://scholar.google.co.kr/citations?user=yuxJxw8AAAAJ&hl=en
   - name: Sangmin Lee
     home: https://sites.google.com/view/aiaas/people/professor?authuser=0
-selected: true
+selected: false
 arxiv: https://arxiv.org/abs/2409.15889
 code: https://github.com/Kyyle2114/Convolutional-Adapter-for-Segment-Anything
 summary:
